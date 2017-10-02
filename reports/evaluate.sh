@@ -24,4 +24,4 @@ module load python-2.7.13
 
 # PEOPLE HI, YOUR COMMANDS GO HERE
 # This script have not been executed yet
-python translate.py -model /gpfs/hpchome/komisare/project/models/demo-model_acc_24.96_ppl_157.53_e13.pt -src /gpfs/hpchome/komisare/project/data/raw-all/bpe.tc-tok-test.et -output /gpfs/hpchome/komisare/project/data/raw-all/hyps.en -gpu 1
+perl /gpfs/hpchome/komisare/OpenNMT-py/tools/multi-bleu.perl bpe.tc-tok-test.en < hyps.en -gpu 0
