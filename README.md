@@ -23,6 +23,7 @@ More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-C/bl
 - We manually analyzed 40 baseline translations. 
 - Our main observation was that the most of the errors in our results were caused by fact, that machine used synonyms, which have a little different meaning and it changes sense of the sentences. Several times some words were missed or was used incorrect tense.
 - Take a look at our the motivating example produced by baseline system:
+
 Example 1.
 Estonian: Meie oskus aidata luua väärtuspõhiseid teenuseid võib anda tulemuseks kiirema väärtusteni jõudmise.
 Human English Translation: Our ability to help create asset-based services can result in faster time to value.
@@ -44,6 +45,7 @@ More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-C/bl
 ## Final system manual evaluation
 - Generally speaking, results are slighly worse: grammar is approximately on same level, but use of incorrect words is really often.
 - Lets now look at how does our Motivating example looks like with our final system:
+
 Example 1.
 Estonian: Meie oskus aidata luua väärtuspõhiseid teenuseid võib anda tulemuseks kiirema väärtusteni jõudmise.
 Human English Translation: Our ability to help create asset-based services can result in faster time to value.
@@ -66,7 +68,7 @@ Training with Nematus continued one week. We wanted to train model for more time
 
 ## Final words
 - __1st_sentence: your_results_on_the_test_set_and_interpretation_(feel_later)__
-- General difficulties were finding GPUs for training. Finally, Google Cloud GPU was used.
+- General difficulties were finding GPUs for training. Finally, Google Cloud GPU (one Tesla K80) was used.
 - It is necessary to be up-to-date with modern frameworks, some of them may propose what you need (for example, Nematus propose ensemble decoding while OpenNMT-py not).
 
 
