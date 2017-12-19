@@ -3,7 +3,7 @@
 This repository is a result of our participation in the shared task.<br>
 We went through the process of building, analysing, and improving the neural machine translation system.
 
-Poster: [link]() 
+Poster: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-C/blob/master/poster/MT_project_poster.pdf) 
 
 The shared task was for Estonian-English language pair. 
 It included working with ~19.000.000 sentence pairs.
@@ -58,7 +58,7 @@ Machine English Translation: You'll check all the use.
 
 - As a result you can see that baseline translation is better. Final system translation is less fluent and often use incorrect words (but overall structure of sentence looks fine). 
 
-Do not forget to check our poster: [__POSTER_LINK__]
+Do not forget to check our poster: [link] (https://github.com/mt2017-tartu-shared-task/nmt-system-C/blob/master/poster/MT_project_poster.pdf)
 
 ## What we also tried or wanted to try
 We also tried to continue training baseline system one week more. After reaching 20 epochs (in baseline was 13 epochs) results converge, so,
@@ -74,8 +74,8 @@ Training with Nematus continued one week. We wanted to train model for more time
 
 
 ## Team members:
-1. [link] (https://github.com/slavikkom)
-2. [link] (https://github.com/dil-delada) 
+1. Viacheslav Komisarenko [link] (https://github.com/slavikkom)
+2. Olha Kaminska [link] (https://github.com/dil-delada) 
 
 Project board: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-C/projects/1)
 
